@@ -1,1 +1,46 @@
-
+body {
+  margin: 0;
+  background-color: #F8F9FA;
+  color: #1F2933;
+  font-family: Arial, sans-serif;
+  font-size: 16 px;
+  line-height: 1.6;
+}
+header {
+  background-color: #1F4E5F;
+  color: white;
+  padding: 20 px;
+}
+header h1,
+header a {
+  color: white;
+}
+main {
+  max-width: 1000 px;
+  margin: 0 auto;
+  padding: 40 px 20 px;
+}
+h1 {
+  font-size: 36 px;
+  margin-bottom: 20 px;
+}
+h2 {
+  font-size: 28 px;
+  margin-bottom: 16 px;
+}
+h3 {
+  font-size: 22 px;
+  margin-bottom: 12 px;
+}
+p {
+  margin-bottom: 16 px;
+}
+.cta {
+  display: inline-block;
+  background-color: #E76F51;
+  color: white;
+  padding: 12 px 24 px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5 px;
+}
