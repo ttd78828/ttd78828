@@ -44,3 +44,21 @@ p {
   font-weight: bold;
   border-radius: 5 px;
 }
+.swatch {
+  width: 150 px;
+  height: 70 px;
+  margin-bottom: 10 px;
+  border: 1 px solid #999;
+}
+.primary {
+  background-color: #1F4E5F;
+}
+.background {
+  background-color: #F8F9FA;
+}
+.text {
+  background-color: #1F2933;
+}
+.accent {
+  background-color: #E76F51;
+}
