@@ -62,3 +62,22 @@ p {
 .accent {
   background-color: #E76F51;
 }
+.skip-link {
+  position: absolute;
+  top: -40 px;
+  left: 0;
+  background: black;
+  color: white;
+  padding: 8 px;
+  z-index: 100;
+}
+.skip-link:focus {
+  top: 0;
+}
+a:focus {
+  outline: 3 px solid orange;
+}
+nav a[aria-current="page"] {
+  font-weight: bold;
+  text-decoration: underline;
+}
