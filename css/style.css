@@ -62,6 +62,13 @@ p {
 .accent {
   background-color: #E76F51;
 }
+nav a[aria-current="page"] {
+  font-weight: bold;
+  text-decoration: underline;
+}
+a:focus {
+  outline: 3 px solid orange;
+}
 .skip-link {
   position: absolute;
   top: -40 px;
@@ -73,11 +80,4 @@ p {
 }
 .skip-link:focus {
   top: 0;
-}
-a:focus {
-  outline: 3 px solid orange;
-}
-nav a[aria-current="page"] {
-  font-weight: bold;
-  text-decoration: underline;
 }
